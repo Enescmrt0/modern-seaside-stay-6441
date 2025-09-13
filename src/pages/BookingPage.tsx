@@ -25,40 +25,31 @@ import { Label } from "@/components/ui/label";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ApartmentProps } from "@/components/ApartmentCard";
 
-// Sample apartments data
+// Sample AI audit services data
 const apartmentsData: ApartmentProps[] = [
   {
     id: "1",
-    name: "Deluxe Sea View Suite",
-    description: "Luxurious suite with panoramic sea views, modern amenities, and a private balcony.",
-    price: 180,
-    capacity: 2,
-    size: 45,
-    image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop",
-    location: "Beachfront",
-    features: ["Wi-Fi", "Kitchen", "Bathroom", "Air Conditioning", "TV", "Balcony"]
+    name: "AI Risk Assessment",
+    description: "Comprehensive evaluation of AI systems for potential risks, biases, and compliance issues.",
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop",
+    location: "Remote/On-site",
+    features: ["Risk Analysis", "Compliance Check", "Bias Detection", "Security Review", "Documentation", "Report"]
   },
   {
     id: "2",
-    name: "Premium Family Apartment",
-    description: "Spacious apartment ideal for families, with full kitchen and stunning coastal views.",
-    price: 250,
-    capacity: 4,
-    size: 75,
-    image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=600&fit=crop",
-    location: "Second row",
-    features: ["Wi-Fi", "Kitchen", "Bathroom", "Air Conditioning", "TV", "Washing Machine"]
+    name: "ML Model Validation",
+    description: "Thorough testing and validation of machine learning models for accuracy and reliability.",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+    location: "Hybrid",
+    features: ["Model Testing", "Performance Analysis", "Data Validation", "Algorithm Review", "Metrics Evaluation", "Optimization"]
   },
   {
     id: "3",
-    name: "Executive Beach Studio",
-    description: "Elegant studio with direct beach access, modern design, and premium finishes.",
-    price: 150,
-    capacity: 2,
-    size: 35,
-    image: "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=800&h=600&fit=crop",
-    location: "Beachfront",
-    features: ["Wi-Fi", "Kitchenette", "Bathroom", "Air Conditioning", "TV"]
+    name: "AI Ethics Consultation", 
+    description: "Expert guidance on ethical AI implementation and responsible AI development practices.",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+    location: "Remote",
+    features: ["Ethics Framework", "Guidelines", "Best Practices", "Training", "Policy Development", "Consultation"]
   },
 ];
 
@@ -92,9 +83,8 @@ export default function BookingPage() {
     window.scrollTo(0, 0);
   }, []);
   
-  // Calculate nights and total price
-  const nightsCount = startDate && endDate ? differenceInDays(endDate, startDate) : 0;
-  const totalPrice = selectedApartment ? selectedApartment.price * nightsCount : 0;
+  // Calculate consultation length (no pricing)
+  const consultationDays = startDate && endDate ? differenceInDays(endDate, startDate) : 0;
   
   // Handle form input changes
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -160,10 +150,10 @@ export default function BookingPage() {
           <div className="container relative z-10">
             <div className="max-w-3xl mx-auto text-center animate-fade-in">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
-                Book Your Stay
+                Schedule AI Audit Consultation
               </h1>
               <p className="text-muted-foreground text-lg">
-                Complete your reservation in a few simple steps.
+                Book your consultation to discuss AI audit requirements and customize our approach.
               </p>
             </div>
           </div>
@@ -356,33 +346,23 @@ export default function BookingPage() {
                           <p className="text-muted-foreground mb-4">{apartment.description}</p>
                           <div className="flex flex-wrap gap-2 mb-4">
                             <div className="text-sm bg-muted px-3 py-1 rounded-full">
-                              {apartment.capacity} Guests
-                            </div>
-                            <div className="text-sm bg-muted px-3 py-1 rounded-full">
-                              {apartment.size} m²
-                            </div>
-                            <div className="text-sm bg-muted px-3 py-1 rounded-full">
                               {apartment.location}
                             </div>
                           </div>
                         </div>
-                        <div className="flex items-center justify-between mt-4">
-                          <div>
-                            <span className="text-xl font-bold">${apartment.price}</span>
-                            <span className="text-muted-foreground text-sm"> / night</span>
-                          </div>
+                        <div className="flex justify-center mt-4">
                           <Button 
                             variant={selectedApartment?.id === apartment.id ? "default" : "outline"}
-                            className={selectedApartment?.id === apartment.id ? "btn-primary" : ""}
+                            className={selectedApartment?.id === apartment.id ? "btn-primary w-full" : "w-full"}
                             onClick={() => setSelectedApartment(apartment)}
                           >
                             {selectedApartment?.id === apartment.id ? (
                               <>
                                 <Check className="mr-2 h-4 w-4" />
-                                Selected
+                                Selected for Consultation
                               </>
                             ) : (
-                              "Select"
+                              "Select for Consultation"
                             )}
                           </Button>
                         </div>
@@ -612,27 +592,10 @@ export default function BookingPage() {
                             </div>
                           </div>
                           
-                          <div className="py-4 border-b space-y-2">
-                            <div className="flex justify-between items-center">
-                              <span>
-                                ${selectedApartment.price} x {nightsCount} {nightsCount === 1 ? "night" : "nights"}
-                              </span>
-                              <span className="font-medium">${selectedApartment.price * nightsCount}</span>
-                            </div>
-                            <div className="flex justify-between items-center">
-                              <span>Cleaning fee</span>
-                              <span className="font-medium">$50</span>
-                            </div>
-                            <div className="flex justify-between items-center">
-                              <span>Service fee</span>
-                              <span className="font-medium">$30</span>
-                            </div>
-                          </div>
-                          
-                          <div className="pt-4">
-                            <div className="flex justify-between items-center font-bold">
-                              <span>Total</span>
-                              <span>${totalPrice + 50 + 30}</span>
+                          <div className="py-4 space-y-2">
+                            <div className="text-center">
+                              <p className="text-muted-foreground">Consultation fees and project scope will be discussed during the call</p>
+                              <p className="text-sm text-primary mt-2">No upfront payment required</p>
                             </div>
                           </div>
                         </>
@@ -768,29 +731,22 @@ export default function BookingPage() {
                     
                     {/* Price Summary */}
                     <div className="glass-card p-6 mb-8">
-                      <h3 className="text-lg font-medium mb-4">Price Summary</h3>
+                      <h3 className="text-lg font-medium mb-4">Consultation Summary</h3>
                       <div className="space-y-2">
                         {selectedApartment && (
-                          <>
-                            <div className="flex justify-between items-center">
-                              <span>
-                                ${selectedApartment.price} x {nightsCount} {nightsCount === 1 ? "night" : "nights"}
-                              </span>
-                              <span className="font-medium">${selectedApartment.price * nightsCount}</span>
+                          <div className="text-center space-y-3">
+                            <p className="text-muted-foreground">
+                              Selected Service: <span className="font-medium text-foreground">{selectedApartment.name}</span>
+                            </p>
+                            <p className="text-muted-foreground">
+                              Consultation will be scheduled to discuss project scope and pricing
+                            </p>
+                            <div className="p-4 bg-primary/5 rounded-lg">
+                              <p className="text-sm text-primary font-medium">
+                                💡 Free initial consultation • Custom pricing based on your needs
+                              </p>
                             </div>
-                            <div className="flex justify-between items-center">
-                              <span>Cleaning fee</span>
-                              <span className="font-medium">$50</span>
-                            </div>
-                            <div className="flex justify-between items-center">
-                              <span>Service fee</span>
-                              <span className="font-medium">$30</span>
-                            </div>
-                            <div className="flex justify-between items-center pt-4 border-t mt-4">
-                              <span className="font-semibold">Total</span>
-                              <span className="font-bold text-xl">${totalPrice + 50 + 30}</span>
-                            </div>
-                          </>
+                          </div>
                         )}
                       </div>
                     </div>

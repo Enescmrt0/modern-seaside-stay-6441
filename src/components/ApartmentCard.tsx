@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Users, Maximize, MapPin, Bath, Coffee, Wifi } from "lucide-react";
+import { MapPin, Bath, Coffee, Wifi } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 import { useLanguage } from "@/contexts/LanguageContext";
@@ -10,9 +10,6 @@ export interface ApartmentProps {
   id: string;
   name: string;
   description: string;
-  price: number;
-  capacity: number;
-  size: number;
   image: string;
   location: string;
   features: string[];
@@ -53,17 +50,6 @@ export default function ApartmentCard({ apartment }: { apartment: ApartmentProps
               <MapPin className="h-4 w-4 mr-1" />
               <span>{apartment.location}</span>
             </div>
-            <div className="flex items-center space-x-3 text-white">
-              <div className="flex items-center">
-                <Users className="h-4 w-4 mr-1" />
-                <span>{apartment.capacity} {apartment.capacity === 1 ? 
-                  t.apartments.filters.guests : t.apartments.filters.guests}</span>
-              </div>
-              <div className="flex items-center">
-                <Maximize className="h-4 w-4 mr-1" />
-                <span>{apartment.size} m²</span>
-              </div>
-            </div>
           </div>
         </div>
       </div>
@@ -90,13 +76,9 @@ export default function ApartmentCard({ apartment }: { apartment: ApartmentProps
           )}
         </div>
         
-        <div className="flex items-end justify-between pt-2">
-          <div>
-            <span className="text-xl font-bold">${apartment.price}</span>
-            <span className="text-muted-foreground text-sm"> / {t.booking.summary.night}</span>
-          </div>
-          <Button asChild className="btn-primary">
-            <Link to={`/apartments/${apartment.id}`}>{t.apartments.filters.viewDetails}</Link>
+        <div className="flex justify-center pt-2">
+          <Button asChild className="btn-primary w-full">
+            <Link to="/booking">Schedule Audit Consultation</Link>
           </Button>
         </div>
       </div>

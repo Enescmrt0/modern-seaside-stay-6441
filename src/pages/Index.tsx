@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import BookingForm from "@/components/BookingForm";
-import TestimonialsSection from "@/components/TestimonialsSection";
+
 import ApartmentCard, { ApartmentProps } from "@/components/ApartmentCard";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -16,9 +16,6 @@ const featuredServices: ApartmentProps[] = [
     id: "1",
     name: "AI Risk Assessment",
     description: "Comprehensive evaluation of AI systems for potential risks, biases, and compliance issues.",
-    price: 5000,
-    capacity: 1,
-    size: 30,
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop",
     location: "Remote/On-site",
     features: ["Risk Analysis", "Compliance Check", "Bias Detection", "Security Review", "Documentation", "Report"]
@@ -27,9 +24,6 @@ const featuredServices: ApartmentProps[] = [
     id: "2",
     name: "ML Model Validation",
     description: "Thorough testing and validation of machine learning models for accuracy and reliability.",
-    price: 7500,
-    capacity: 2,
-    size: 45,
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
     location: "Hybrid",
     features: ["Model Testing", "Performance Analysis", "Data Validation", "Algorithm Review", "Metrics Evaluation", "Optimization"]
@@ -38,9 +32,6 @@ const featuredServices: ApartmentProps[] = [
     id: "3",
     name: "AI Ethics Consultation",
     description: "Expert guidance on ethical AI implementation and responsible AI development practices.",
-    price: 3500,
-    capacity: 1,
-    size: 20,
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
     location: "Remote",
     features: ["Ethics Framework", "Guidelines", "Best Practices", "Training", "Policy Development", "Consultation"]
@@ -218,8 +209,74 @@ export default function Index() {
           </div>
         </section>
         
-        {/* Testimonials Section */}
-        <TestimonialsSection />
+        {/* Refund Policy Section */}
+        <section className="section bg-gradient-to-r from-primary/5 to-sea-light/5">
+          <div className="container">
+            <div className="max-w-4xl mx-auto">
+              <div className="text-center mb-12 animate-fade-in">
+                <span className="text-sm text-primary font-medium uppercase tracking-wider">
+                  Our Guarantee
+                </span>
+                <h2 className="text-3xl md:text-4xl font-bold mt-2 mb-4">
+                  100% Satisfaction Guarantee
+                </h2>
+                <p className="text-muted-foreground">
+                  We're confident in our AI audit process and stand behind our results
+                </p>
+              </div>
+              
+              <div className="glass-card p-8 rounded-2xl animate-fade-in [animation-delay:200ms]">
+                <div className="flex items-start space-x-4 mb-6">
+                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
+                    <Shield className="h-6 w-6 text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-semibold mb-2">Money-Back Guarantee</h3>
+                    <p className="text-muted-foreground">
+                      If our AI audit doesn't identify measurable improvement opportunities within your systems 
+                      or you're not completely satisfied with our findings within <strong>30 days</strong> of 
+                      receiving your audit report, we'll provide a full refund - no questions asked.
+                    </p>
+                  </div>
+                </div>
+                
+                <div className="border-t border-border/50 pt-6 mt-6">
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div className="text-center">
+                      <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-3">
+                        <CheckCircle className="h-5 w-5 text-primary" />
+                      </div>
+                      <h4 className="font-semibold mb-1">No Hidden Fees</h4>
+                      <p className="text-sm text-muted-foreground">Transparent pricing discussed in consultation</p>
+                    </div>
+                    <div className="text-center">
+                      <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-3">
+                        <CheckCircle className="h-5 w-5 text-primary" />
+                      </div>
+                      <h4 className="font-semibold mb-1">30-Day Window</h4>
+                      <p className="text-sm text-muted-foreground">Full refund within 30 days of report delivery</p>
+                    </div>
+                    <div className="text-center">
+                      <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-3">
+                        <CheckCircle className="h-5 w-5 text-primary" />
+                      </div>
+                      <h4 className="font-semibold mb-1">Quality Assured</h4>
+                      <p className="text-sm text-muted-foreground">Comprehensive audit or your money back</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="text-center mt-8">
+                  <Button asChild className="btn-primary">
+                    <Link to="/booking">
+                      Schedule Your Risk-Free Consultation
+                    </Link>
+                  </Button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
         
         {/* Features Section */}
         <section className="section bg-card">
