@@ -3,7 +3,7 @@ import { useEffect } from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Heart, Dumbbell, Waves, Activity, Utensils, Wine, Coffee, Clock, Car, Plane, Car as CarIcon, MapPin, Waves as WavesIcon, Users, Music, BookOpen } from "lucide-react";
+import { Brain, Shield, BarChart3, Zap, Users, CheckCircle, Clock, Target, Plane, Car as CarIcon, MapPin, Cpu, Settings, BookOpen } from "lucide-react";
 
 export default function Amenities() {
   const { t } = useLanguage();
@@ -13,16 +13,16 @@ export default function Amenities() {
     window.scrollTo(0, 0);
   }, []);
   
-  // Helper function to get the appropriate icon for each amenity
+  // Helper function to get the appropriate icon for each service category
   const getIcon = (categoryName: string, index: number) => {
     const icons = {
-      wellness: [<Heart key={0} />, <Dumbbell key={1} />, <Waves key={2} />, <Activity key={3} />],
-      dining: [<Utensils key={0} />, <Coffee key={1} />, <Wine key={2} />, <Clock key={3} />],
-      services: [<Clock key={0} />, <Plane key={1} />, <CarIcon key={2} />, <MapPin key={3} />],
-      entertainment: [<WavesIcon key={0} />, <Users key={1} />, <Music key={2} />, <BookOpen key={3} />]
+      assessment: [<Brain key={0} />, <Shield key={1} />, <BarChart3 key={2} />, <CheckCircle key={3} />],
+      validation: [<Target key={0} />, <Settings key={1} />, <Zap key={2} />, <Clock key={3} />],
+      consulting: [<Users key={0} />, <BookOpen key={1} />, <MapPin key={2} />, <Plane key={3} />],
+      optimization: [<Cpu key={0} />, <Users key={1} />, <Settings key={2} />, <BookOpen key={3} />]
     };
     
-    return icons[categoryName as keyof typeof icons]?.[index] || <Coffee />;
+    return icons[categoryName as keyof typeof icons]?.[index] || <Brain />;
   };
   
   return (
@@ -120,8 +120,17 @@ export default function Amenities() {
                   className="aspect-square rounded-lg overflow-hidden shadow-md transition-transform hover:scale-105"
                 >
                   <img 
-                    src={`https://images.unsplash.com/photo-${1550000000000 + index * 100000}?w=400&h=400&fit=crop`}
-                    alt={`Amenity ${index + 1}`}
+                    src={`https://images.unsplash.com/photo-${[
+                      '1677442136019-21780ecad995',
+                      '1551288049-bebda4e38f71', 
+                      '1460925895917-afdab827c52f',
+                      '1507003211169-0a1dd7228f2d',
+                      '1563013544-824ae1b704d3',
+                      '1518186285589-2f7649de83e0',
+                      '1515187029135-18ee286d815b',
+                      '1581091226825-a6a2a5aee158'
+                    ][index]}?w=400&h=400&fit=crop`}
+                    alt={`AI Audit Service ${index + 1}`}
                     className="w-full h-full object-cover"
                   />
                 </div>

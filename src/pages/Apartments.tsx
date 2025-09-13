@@ -14,79 +14,79 @@ import {
 import { Slider } from "@/components/ui/slider";
 import { useLanguage } from "@/contexts/LanguageContext";
 
-// Sample apartments data (will use translations from context)
-const allApartments: ApartmentProps[] = [
+// Sample AI audit services data
+const allServices: ApartmentProps[] = [
   {
     id: "1",
-    name: "Deluxe Sea View Suite",
-    description: "Luxurious suite with panoramic sea views, modern amenities, and a private balcony.",
-    price: 180,
-    capacity: 2,
-    size: 45,
-    image: "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop",
-    location: "Beachfront",
-    features: ["Wi-Fi", "Kitchen", "Bathroom", "Air Conditioning", "TV", "Balcony"]
+    name: "AI Risk Assessment",
+    description: "Comprehensive evaluation of AI systems for potential risks, biases, and compliance issues.",
+    price: 5000,
+    capacity: 1,
+    size: 30,
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop",
+    location: "Remote/On-site",
+    features: ["Risk Analysis", "Compliance Check", "Bias Detection", "Security Review", "Documentation", "Report"]
   },
   {
     id: "2",
-    name: "Premium Family Apartment",
-    description: "Spacious apartment ideal for families, with full kitchen and stunning coastal views.",
-    price: 250,
-    capacity: 4,
-    size: 75,
-    image: "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?w=800&h=600&fit=crop",
-    location: "Second row",
-    features: ["Wi-Fi", "Kitchen", "Bathroom", "Air Conditioning", "TV", "Washing Machine"]
+    name: "ML Model Validation",
+    description: "Thorough testing and validation of machine learning models for accuracy and reliability.",
+    price: 7500,
+    capacity: 2,
+    size: 45,
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
+    location: "Hybrid",
+    features: ["Model Testing", "Performance Analysis", "Data Validation", "Algorithm Review", "Metrics Evaluation", "Optimization"]
   },
   {
     id: "3",
-    name: "Executive Beach Studio",
-    description: "Elegant studio with direct beach access, modern design, and premium finishes.",
-    price: 150,
-    capacity: 2,
-    size: 35,
-    image: "https://images.unsplash.com/photo-1598928506311-c55ded91a20c?w=800&h=600&fit=crop",
-    location: "Beachfront",
-    features: ["Wi-Fi", "Kitchenette", "Bathroom", "Air Conditioning", "TV"]
+    name: "AI Ethics Consultation",
+    description: "Expert guidance on ethical AI implementation and responsible AI development practices.",
+    price: 3500,
+    capacity: 1,
+    size: 20,
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop",
+    location: "Remote",
+    features: ["Ethics Framework", "Guidelines", "Best Practices", "Training", "Policy Development", "Consultation"]
   },
   {
     id: "4",
-    name: "Luxury Penthouse Suite",
-    description: "Exclusive top-floor suite with expansive terrace and panoramic sea views.",
-    price: 350,
-    capacity: 4,
-    size: 90,
-    image: "https://images.unsplash.com/photo-1562438668-bcf0ca6578f0?w=800&h=600&fit=crop",
-    location: "Beachfront",
-    features: ["Wi-Fi", "Full Kitchen", "2 Bathrooms", "Air Conditioning", "TV", "Terrace", "Jacuzzi"]
+    name: "AI Governance Framework",
+    description: "Complete AI governance strategy development for enterprise-level AI implementations.",
+    price: 12000,
+    capacity: 3,
+    size: 60,
+    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
+    location: "Enterprise",
+    features: ["Strategy Development", "Policy Framework", "Compliance Guidelines", "Risk Management", "Training Program", "Implementation"]
   },
   {
     id: "5",
-    name: "Classic Double Room",
-    description: "Comfortable hotel room with modern amenities and partial sea views.",
-    price: 120,
+    name: "AI Security Audit",
+    description: "Comprehensive security assessment of AI systems and data pipelines for vulnerabilities.",
+    price: 8500,
     capacity: 2,
-    size: 28,
-    image: "https://images.unsplash.com/photo-1611892440504-42a792e24d32?w=800&h=600&fit=crop",
-    location: "Hotel building",
-    features: ["Wi-Fi", "Bathroom", "Air Conditioning", "TV", "Mini Fridge"]
+    size: 40,
+    image: "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop",
+    location: "Secure Environment",
+    features: ["Security Assessment", "Vulnerability Analysis", "Data Protection", "Access Control", "Monitoring", "Remediation"]
   },
   {
     id: "6",
-    name: "Garden View Apartment",
-    description: "Peaceful apartment surrounded by lush gardens, just a short walk from the beach.",
-    price: 160,
-    capacity: 3,
-    size: 55,
-    image: "https://images.unsplash.com/photo-1600585152220-90363fe7e115?w=800&h=600&fit=crop",
-    location: "Garden area",
-    features: ["Wi-Fi", "Kitchen", "Bathroom", "Air Conditioning", "TV", "Terrace"]
+    name: "AI Performance Optimization",
+    description: "Optimize AI system performance, efficiency, and resource utilization for better ROI.",
+    price: 6000,
+    capacity: 2,
+    size: 35,
+    image: "https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=800&h=600&fit=crop",
+    location: "Cloud/On-premise",
+    features: ["Performance Tuning", "Resource Optimization", "Cost Analysis", "Scalability", "Monitoring", "Reporting"]
   },
 ];
 
 export default function Apartments() {
   const { t } = useLanguage();
-  const [filteredApartments, setFilteredApartments] = useState<ApartmentProps[]>(allApartments);
+  const [filteredServices, setFilteredServices] = useState<ApartmentProps[]>(allServices);
   const [capacityFilter, setCapacityFilter] = useState<string>("all");
   const [locationFilter, setLocationFilter] = useState<string>("all");
   const [priceRange, setPriceRange] = useState<number[]>([100, 350]);
@@ -98,7 +98,7 @@ export default function Apartments() {
   
   // Apply filters
   useEffect(() => {
-    let result = allApartments;
+    let result = allServices;
     
     // Filter by capacity
     if (capacityFilter !== "all") {
@@ -114,11 +114,11 @@ export default function Apartments() {
     // Filter by price range
     result = result.filter(apt => apt.price >= priceRange[0] && apt.price <= priceRange[1]);
     
-    setFilteredApartments(result);
+    setFilteredServices(result);
   }, [capacityFilter, locationFilter, priceRange]);
   
   // Get unique locations for filter
-  const locations = ["all", ...new Set(allApartments.map(apt => apt.location))];
+  const locations = ["all", ...new Set(allServices.map(service => service.location))];
   
   return (
     <div className="min-h-screen flex flex-col">
@@ -205,7 +205,7 @@ export default function Apartments() {
             
             <div className="flex justify-between items-center mt-6 animate-fade-in [animation-delay:200ms]">
               <p className="text-muted-foreground">
-                {t.apartments.filters.showing} {filteredApartments.length} {t.apartments.filters.of} {allApartments.length} {t.apartments.filters.accommodations}
+                {t.apartments.filters.showing} {filteredServices.length} {t.apartments.filters.of} {allServices.length} {t.apartments.filters.accommodations}
               </p>
               <Button 
                 variant="outline" 
@@ -224,11 +224,11 @@ export default function Apartments() {
         {/* Apartments Grid */}
         <section className="section">
           <div className="container">
-            {filteredApartments.length > 0 ? (
+            {filteredServices.length > 0 ? (
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {filteredApartments.map((apartment, index) => (
-                  <div key={apartment.id} className="animate-fade-in" style={{ animationDelay: `${(index + 1) * 100}ms` }}>
-                    <ApartmentCard apartment={apartment} />
+                {filteredServices.map((service, index) => (
+                  <div key={service.id} className="animate-fade-in" style={{ animationDelay: `${(index + 1) * 100}ms` }}>
+                    <ApartmentCard apartment={service} />
                   </div>
                 ))}
               </div>
