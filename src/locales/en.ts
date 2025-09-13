@@ -1,45 +1,45 @@
 export const en = {
   nav: {
     home: "Home",
-    apartments: "Apartments",
-    amenities: "Amenities",
-    gallery: "Gallery",
+    apartments: "Services",
+    amenities: "Expertise",
+    gallery: "Case Studies",
     contact: "Contact",
-    bookNow: "Book Now"
+    bookNow: "Get Quote"
   },
   hero: {
-    subtitle: "BEACHFRONT LUXURY ACCOMMODATION",
-    title: "Experience Seaside Tranquility",
-    description: "Discover our exclusive collection of luxury beachfront apartments and hotel rooms, offering unparalleled comfort and breathtaking sea views.",
-    bookStay: "Book Your Stay",
-    exploreApartments: "Explore Apartments",
+    subtitle: "PROFESSIONAL AI AUDITING SERVICES",
+    title: "Ensure Your AI Systems Are Reliable & Compliant",
+    description: "Expert AI auditing services to evaluate bias, security, performance, and compliance of your artificial intelligence systems. Get comprehensive insights and actionable recommendations.",
+    bookStay: "Get Quote",
+    exploreApartments: "Our Services",
     scrollDown: "Scroll Down"
   },
   footer: {
-    description: "Luxurious beachfront apartments and hotel rooms with stunning sea views, offering the perfect blend of comfort and elegance for your dream vacation.",
+    description: "Professional AI auditing services providing comprehensive evaluation of artificial intelligence systems for bias, compliance, security, and performance optimization.",
     quickLinks: "Quick Links",
     contact: "Contact",
     newsletter: "Newsletter",
-    newsletterDesc: "Subscribe to our newsletter for special deals and updates.",
+    newsletterDesc: "Subscribe to our newsletter for AI auditing insights and industry updates.",
     yourEmail: "Your email address",
     subscribe: "Subscribe",
     allRights: "All rights reserved."
   },
   bookingForm: {
-    title: "Book Your Stay",
-    checkIn: "Check-in Date",
-    checkOut: "Check-out Date",
-    adults: "Adults",
-    children: "Children",
-    adult: "Adult",
-    child: "Child",
+    title: "Request Consultation",
+    checkIn: "Project Start Date",
+    checkOut: "Expected Completion",
+    adults: "Team Size",
+    children: "Systems to Audit",
+    adult: "Person",
+    child: "System",
     selectDate: "Select date",
     checkAvailability: "Check Availability",
-    bookingConfirmed: "Booking Confirmed!"
+    bookingConfirmed: "Consultation Requested!"
   },
   testimonials: {
-    title: "What Our Guests Say",
-    description: "Discover why our guests keep coming back to MareSereno for their seaside getaways."
+    title: "What Our Clients Say",
+    description: "Discover why leading companies trust us with their AI system audits and compliance requirements."
   },
   notFound: {
     title: "Page Not Found",
@@ -48,79 +48,79 @@ export const en = {
   },
   home: {
     welcome: {
-      subtitle: "Welcome to MareSereno",
-      title: "Luxury Seaside Accommodations",
-      description1: "Nestled on the pristine Mediterranean coastline, MareSereno offers an exquisite collection of luxury apartments and hotel rooms. Our beachfront accommodations combine elegant design with modern comfort, creating the perfect setting for an unforgettable seaside getaway.",
-      description2: "Whether you're seeking a romantic escape, a family vacation, or a peaceful retreat, our diverse range of accommodations caters to every preference and need. Each space is thoughtfully designed to provide panoramic sea views and direct beach access.",
+      subtitle: "Welcome to AI Audit Pro",
+      title: "Professional AI System Auditing",
+      description1: "Specialized in comprehensive AI system evaluation, we provide expert auditing services to ensure your artificial intelligence implementations are ethical, secure, and compliant. Our thorough assessments cover bias detection, security vulnerabilities, performance optimization, and regulatory compliance.",
+      description2: "Whether you're deploying machine learning models, natural language processing systems, or computer vision applications, our diverse range of auditing services caters to every AI implementation. Each audit is meticulously designed to provide actionable insights and compliance assurance.",
       learnMore: "Learn More"
     },
     booking: {
-      subtitle: "Book Your Stay",
-      title: "Reserve Your Perfect Getaway",
-      description: "Take the first step towards your dream vacation by checking availability and securing your preferred dates. Our simple booking process ensures a seamless experience from reservation to arrival.",
-      benefits: ["Instant confirmation", "Best rate guarantee", "Flexible cancellation options", "Secure payment"]
+      subtitle: "Request Consultation",
+      title: "Schedule Your AI Audit",
+      description: "Take the first step towards ensuring your AI systems are compliant and optimized by scheduling a consultation. Our streamlined process ensures comprehensive evaluation from initial assessment to final report.",
+      benefits: ["Detailed audit report", "Compliance certification", "Performance optimization", "Ongoing support"]
     },
     featuredApartments: {
-      subtitle: "Our Accommodations",
-      title: "Featured Apartments",
-      description: "Discover our most popular accommodation options, each offering a perfect blend of comfort, style, and breathtaking sea views.",
-      viewAll: "View All Apartments"
+      subtitle: "Our Services",
+      title: "Featured Audit Services",
+      description: "Discover our most comprehensive audit services, each offering thorough evaluation of different aspects of your AI systems.",
+      viewAll: "View All Services"
     },
     amenities: {
-      subtitle: "Hotel Amenities",
-      title: "Experience The Best",
-      description: "Enjoy our premium facilities and services designed to make your stay exceptional.",
+      subtitle: "Our Expertise",
+      title: "Comprehensive AI Auditing",
+      description: "Benefit from our specialized expertise and methodologies designed to ensure your AI systems meet the highest standards.",
       features: {
         beachfront: {
-          title: "Beachfront Location",
-          description: "Direct access to pristine beaches with crystal clear waters."
+          title: "Bias Detection",
+          description: "Comprehensive analysis to identify and mitigate algorithmic bias."
         },
         pools: {
-          title: "Swimming Pools",
-          description: "Relax by our infinity pools with stunning sea views."
+          title: "Security Assessment",
+          description: "Thorough evaluation of AI system security vulnerabilities."
         },
         restaurant: {
-          title: "Gourmet Restaurant",
-          description: "Enjoy exquisite local and international cuisine."
+          title: "Compliance Review",
+          description: "Ensure your AI systems meet regulatory requirements."
         },
         wifi: {
-          title: "High-Speed Wi-Fi",
-          description: "Stay connected with complimentary high-speed internet."
+          title: "Performance Analysis",
+          description: "Optimize AI system performance and efficiency metrics."
         },
         bar: {
-          title: "Beach Bar & Café",
-          description: "Refreshing drinks and snacks served right on the beach."
+          title: "Ethics Evaluation",
+          description: "Assessment of ethical implications and responsible AI practices."
         },
         location: {
-          title: "Prime Location",
-          description: "Close to local attractions, shops, and restaurants."
+          title: "Industry Expertise",
+          description: "Specialized knowledge across healthcare, finance, and tech sectors."
         }
       }
     },
     cta: {
-      title: "Ready for Your Dream Vacation?",
-      description: "Book your stay today and experience the perfect blend of luxury, comfort, and stunning sea views.",
-      bookNow: "Book Now"
+      title: "Ready to Audit Your AI Systems?",
+      description: "Contact us today to schedule a comprehensive AI audit and ensure your systems are reliable, compliant, and optimized.",
+      bookNow: "Get Quote"
     }
   },
   apartments: {
-    title: "Our Apartments & Rooms",
-    subtitle: "Discover our selection of premium accommodations, ranging from cozy studios to luxurious penthouses.",
+    title: "Our AI Audit Services",
+    subtitle: "Discover our comprehensive range of AI auditing services, from basic assessments to complete system evaluations.",
     filters: {
-      guests: "Guests",
-      anyGuests: "Any number of guests",
-      onePlus: "1+ guests",
-      twoPlus: "2+ guests",
-      threePlus: "3+ guests",
-      fourPlus: "4+ guests",
-      location: "Location",
-      allLocations: "All locations",
-      priceRange: "Price Range",
+      guests: "Team Size",
+      anyGuests: "Any team size",
+      onePlus: "1+ person",
+      twoPlus: "2+ people",
+      threePlus: "3+ people",
+      fourPlus: "4+ people",
+      location: "Industry",
+      allLocations: "All industries",
+      priceRange: "Service Level",
       showing: "Showing",
       of: "of",
-      accommodations: "accommodations",
+      accommodations: "services",
       resetFilters: "Reset Filters",
-      noMatch: "No apartments match your filters",
+      noMatch: "No services match your filters",
       adjustFilters: "Try adjusting your filter criteria to see more options.",
       viewDetails: "View Details",
       features: "features",
@@ -128,57 +128,57 @@ export const en = {
     }
   },
   gallery: {
-    title: "Photo Gallery",
-    subtitle: "Explore our seaside paradise through captivating imagery.",
+    title: "Case Studies",
+    subtitle: "Explore our successful AI audit projects and compliance achievements.",
     filters: {
       all: "All",
-      exterior: "Exterior",
-      rooms: "Rooms",
-      amenities: "Amenities"
+      exterior: "Healthcare",
+      rooms: "Finance",
+      amenities: "Technology"
     }
   },
   booking: {
-    title: "Book Your Stay",
-    subtitle: "Complete your reservation in a few simple steps.",
+    title: "Request AI Audit",
+    subtitle: "Complete your audit request in a few simple steps.",
     steps: {
-      chooseRoom: "Choose Room",
-      guestDetails: "Guest Details",
+      chooseRoom: "Choose Service",
+      guestDetails: "Project Details", 
       confirmation: "Confirmation"
     },
     dates: {
-      selectDates: "Select Dates and Guests",
-      checkIn: "Check-in Date",
-      checkOut: "Check-out Date",
-      adults: "Adults",
-      children: "Children",
-      adult: "Adult",
-      child: "Child",
+      selectDates: "Select Timeline and Team",
+      checkIn: "Project Start Date",
+      checkOut: "Expected Completion",
+      adults: "Team Members",
+      children: "AI Systems",
+      adult: "Member",
+      child: "System",
       selectDate: "Select date"
     },
     accommodationSelect: {
-      title: "Select Your Accommodation",
-      guests: "Guests",
+      title: "Select Your Audit Service",
+      guests: "Team Size",
       selected: "Selected",
       select: "Select",
       continue: "Continue"
     },
     guestInfo: {
-      title: "Guest Information",
+      title: "Project Information",
       firstName: "First Name",
       lastName: "Last Name",
       email: "Email",
       phone: "Phone",
-      address: "Address",
+      address: "Company Address",
       city: "City",
       zipCode: "Zip Code",
       country: "Country",
-      specialRequests: "Special Requests",
-      specialRequestsPlaceholder: "Any special requests or notes for your stay"
+      specialRequests: "Special Requirements",
+      specialRequestsPlaceholder: "Any specific requirements or notes for your AI audit"
     },
     payment: {
       title: "Payment Information",
       creditCard: "Credit Card",
-      payAtProperty: "Pay at Property",
+      payAtProperty: "Pay Later",
       nameOnCard: "Name on Card",
       cardNumber: "Card Number",
       cardNumberPlaceholder: "0000 0000 0000 0000",
@@ -186,209 +186,209 @@ export const en = {
       expiryDatePlaceholder: "MM/YY",
       cvc: "CVC",
       cvcPlaceholder: "123",
-      payAtPropertyInfo: "You will be required to provide a valid credit card upon arrival for security purposes, but payment will be collected during your stay at the property."
+      payAtPropertyInfo: "Payment will be processed after the audit proposal is accepted and work begins."
     },
     summary: {
-      title: "Booking Summary",
-      checkIn: "Check-in",
-      checkOut: "Check-out",
-      guests: "Guests",
-      night: "night",
-      nights: "nights",
-      cleaningFee: "Cleaning fee",
+      title: "Audit Summary",
+      checkIn: "Start Date",
+      checkOut: "Completion",
+      guests: "Team Size",
+      night: "day",
+      nights: "days",
+      cleaningFee: "Setup fee",
       serviceFee: "Service fee",
       total: "Total"
     },
     confirmation: {
-      title: "Review Booking Details",
-      accommodationDetails: "Accommodation Details",
-      guestDetails: "Guest Details",
+      title: "Review Audit Details",
+      accommodationDetails: "Service Details",
+      guestDetails: "Project Details",
       name: "Name",
       email: "Email",
       phone: "Phone",
-      address: "Address", 
+      address: "Address",
       city: "City",
       country: "Country",
-      specialRequests: "Special Requests",
+      specialRequests: "Special Requirements",
       paymentMethod: "Payment Method",
       creditCard: "Credit Card",
       priceSummary: "Price Summary",
       termsAgree: "I agree to the",
       termsLink: "Terms and Conditions",
       privacyLink: "Privacy Policy",
-      cancellationInfo: "I understand that my booking is subject to the property's cancellation policy.",
+      cancellationInfo: "I understand that my audit request is subject to our service agreement.",
       back: "Back",
-      confirmBooking: "Confirm Booking",
-      success: "Booking Confirmed!",
-      emailSent: "Your reservation has been successfully confirmed. A confirmation email has been sent to",
-      bookingReference: "Booking Reference",
+      confirmBooking: "Confirm Audit Request",
+      success: "Audit Request Confirmed!",
+      emailSent: "Your audit request has been successfully submitted. A confirmation email has been sent to",
+      bookingReference: "Request Reference",
       returnToHome: "Return to Homepage"
     }
   },
   contact: {
     title: "Contact Us",
-    subtitle: "We're here to help make your stay unforgettable. Reach out with any questions or special requests.",
+    subtitle: "Ready to ensure your AI systems are compliant and reliable? Get in touch with our expert team.",
     getInTouch: "Get In Touch",
     address: "Address",
-    phone: "Phone",
+    phone: "Phone", 
     email: "Email",
-    receptionHours: "Reception Hours",
-    checkInTime: "Check-in: After 3:00 PM",
-    checkOutTime: "Check-out: Before 11:00 AM",
+    receptionHours: "Business Hours",
+    checkInTime: "Monday-Friday: 9:00 AM - 6:00 PM",
+    checkOutTime: "Response Time: Within 24 hours",
     sendMessage: "Send Us a Message",
     fullName: "Full Name",
     phoneNumber: "Phone Number",
     subject: "Subject",
     message: "Message",
-    howCanWeHelp: "How can we help you?",
+    howCanWeHelp: "How can we help with your AI audit needs?",
     send: "Send Message",
     messageSent: "Message Sent!",
     thankYou: "Thank you for reaching out. We'll respond to your message as soon as possible.",
     faq: "Frequently Asked Questions",
-    faqSubtitle: "Find quick answers to commonly asked questions about our accommodations and services.",
+    faqSubtitle: "Find quick answers to commonly asked questions about our AI auditing services.",
     questions: {
       checkInOut: {
-        question: "What are your check-in and check-out times?",
-        answer: "Check-in is from 3:00 PM onwards, and check-out is until 11:00 AM. Early check-in or late check-out may be arranged based on availability."
+        question: "How long does a typical AI audit take?",
+        answer: "Audit duration varies based on system complexity, typically ranging from 2-8 weeks. We provide detailed timelines during initial consultation."
       },
       parking: {
-        question: "Is parking available at the property?",
-        answer: "Yes, we offer complimentary parking for all guests. Valet parking service is also available for an additional fee."
+        question: "What industries do you specialize in?",
+        answer: "We serve healthcare, finance, technology, and manufacturing sectors with specialized expertise in each industry's compliance requirements."
       },
       pets: {
-        question: "Are pets allowed in the apartments?",
-        answer: "We welcome pets in designated pet-friendly apartments. Please inform us in advance if you plan to bring a pet, as additional charges may apply."
+        question: "Do you provide ongoing monitoring services?",
+        answer: "Yes, we offer continuous monitoring packages to ensure your AI systems maintain compliance and performance standards over time."
       },
       breakfast: {
-        question: "Is breakfast included in the room rate?",
-        answer: "Breakfast is included in select room packages. You can check the inclusion during the booking process or add it to your reservation at any time."
+        question: "What certifications do you provide?",
+        answer: "We provide comprehensive audit reports and compliance certifications that meet industry standards and regulatory requirements."
       },
       transfers: {
-        question: "Do you offer airport transfers?",
-        answer: "Yes, we offer airport transfers for an additional fee. Please contact our concierge at least 48 hours before your arrival to arrange transportation."
+        question: "Do you offer remote auditing services?",
+        answer: "Yes, we offer both on-site and remote auditing services to accommodate your operational needs and security requirements."
       },
       amenities: {
-        question: "What amenities are available at the property?",
-        answer: "Our property features swimming pools, a spa, restaurants, a beach bar, fitness center, and direct beach access. All apartments include Wi-Fi, air conditioning, and modern appliances."
+        question: "What does your audit process include?",
+        answer: "Our comprehensive process includes bias detection, security assessment, performance analysis, compliance review, and detailed reporting with actionable recommendations."
       }
     }
   },
   apartmentDescriptions: {
     "1": {
-      name: "Deluxe Sea View Suite",
-      description: "Luxurious suite with panoramic sea views, modern amenities, and a private balcony."
+      name: "Comprehensive AI System Audit",
+      description: "Complete evaluation covering bias, security, performance, and compliance for enterprise AI systems."
     },
     "2": {
-      name: "Premium Family Apartment",
-      description: "Spacious apartment ideal for families, with full kitchen and stunning coastal views."
+      name: "Machine Learning Model Assessment",
+      description: "Specialized audit focused on ML model performance, accuracy, and bias detection."
     },
     "3": {
-      name: "Executive Beach Studio",
-      description: "Elegant studio with direct beach access, modern design, and premium finishes."
+      name: "AI Security & Privacy Review",
+      description: "In-depth security assessment covering data protection, model robustness, and privacy compliance."
     },
     "4": {
-      name: "Luxury Penthouse Suite",
-      description: "Exclusive top-floor suite with expansive terrace and panoramic sea views."
+      name: "Regulatory Compliance Audit",
+      description: "Comprehensive compliance review ensuring adherence to industry regulations and standards."
     },
     "5": {
-      name: "Classic Double Room",
-      description: "Comfortable hotel room with modern amenities and partial sea views."
+      name: "Basic AI Health Check",
+      description: "Entry-level assessment covering fundamental AI system performance and basic compliance."
     },
     "6": {
-      name: "Garden View Apartment",
-      description: "Peaceful apartment surrounded by lush gardens, just a short walk from the beach."
+      name: "Ongoing Monitoring Service",
+      description: "Continuous monitoring and periodic reviews to maintain AI system compliance and performance."
     }
   },
   amenitiesPage: {
-    title: "Our Amenities",
-    subtitle: "Discover the luxury amenities and services that make your stay unforgettable.",
-    description: "At MareSereno, we are dedicated to providing a comprehensive and luxurious stay experience. From our beachfront services to wellness facilities, every detail has been curated to ensure maximum comfort and pleasure.",
+    title: "Our AI Audit Expertise",
+    subtitle: "Discover the comprehensive methodologies and specialized services that ensure your AI systems meet the highest standards.",
+    description: "At AI Audit Pro, we are dedicated to providing thorough and reliable AI system evaluations. From bias detection to security assessment, every aspect has been designed to ensure maximum compliance and performance optimization.",
     categories: {
       wellness: {
-        title: "Wellness & Relaxation",
-        description: "Treat yourself with our range of wellness services designed to rejuvenate body and mind.",
+        title: "Bias & Fairness Assessment",
+        description: "Comprehensive evaluation to identify and mitigate bias in your AI systems.",
         items: [
           {
-            title: "Luxury Spa",
-            description: "Our spa offers a full range of treatments, from traditional therapies to the most modern beauty treatments."
+            title: "Algorithmic Bias Detection",
+            description: "Advanced techniques to identify bias across different demographic groups and use cases."
           },
           {
-            title: "Fitness Center",
-            description: "Maintain your fitness routine with our state-of-the-art gym featuring panoramic sea views."
+            title: "Fairness Metrics Analysis", 
+            description: "Detailed analysis using industry-standard fairness metrics and custom evaluation frameworks."
           },
           {
-            title: "Infinity Pool",
-            description: "Immerse yourself in our infinity pool while admiring the endless horizon of the sea."
+            title: "Data Quality Assessment",
+            description: "Thorough evaluation of training data quality, representativeness, and potential bias sources."
           },
           {
-            title: "Beach Yoga",
-            description: "Join our morning yoga sessions on the beach for a revitalizing awakening."
+            title: "Mitigation Strategies",
+            description: "Actionable recommendations and implementation guidance for bias reduction techniques."
           }
         ]
       },
       dining: {
-        title: "Dining",
-        description: "Discover the best of local and international cuisine at our restaurants and bars.",
+        title: "Security & Privacy",
+        description: "Comprehensive security evaluation covering data protection and system vulnerabilities.",
         items: [
           {
-            title: "Gourmet Restaurant",
-            description: "Savor fine dishes prepared by our chefs with fresh local ingredients."
+            title: "Model Security Assessment",
+            description: "Evaluation of model robustness against adversarial attacks and data poisoning."
           },
           {
-            title: "Beach Bar",
-            description: "Enjoy refreshing cocktails and light snacks with your feet in the sand."
+            title: "Data Privacy Review",
+            description: "Comprehensive assessment of data handling practices and privacy compliance."
           },
           {
-            title: "Lounge Bar",
-            description: "Relax with a selection of fine wines and spirits in an elegant atmosphere."
+            title: "Access Control Audit",
+            description: "Review of authentication, authorization, and access management systems."
           },
           {
-            title: "Room Service",
-            description: "Enjoy gourmet meals in the privacy of your apartment, available 24 hours a day."
+            title: "Vulnerability Testing",
+            description: "Systematic testing for security vulnerabilities and penetration testing."
           }
         ]
       },
       services: {
-        title: "Extra Services",
-        description: "Take advantage of our additional services for a hassle-free stay.",
+        title: "Compliance & Regulation",
+        description: "Ensure your AI systems meet all relevant regulatory requirements and industry standards.",
         items: [
           {
-            title: "24/7 Concierge",
-            description: "Our concierge team is available at any time to assist you with any request."
+            title: "Regulatory Compliance",
+            description: "Assessment against GDPR, AI Act, CCPA, and other relevant regulations."
           },
           {
-            title: "Airport Transfers",
-            description: "Travel comfortably to and from the airport with our private transfer service."
+            title: "Industry Standards",
+            description: "Evaluation against ISO, NIST, and sector-specific compliance frameworks."
           },
           {
-            title: "Car Rental",
-            description: "Explore the area with our fleet of premium vehicles available for rent."
+            title: "Documentation Review",
+            description: "Comprehensive review of AI system documentation and governance processes."
           },
           {
-            title: "Guided Excursions",
-            description: "Discover local attractions with our personalized expert-guided tours."
+            title: "Certification Support",
+            description: "Support for obtaining necessary certifications and maintaining compliance."
           }
         ]
       },
       entertainment: {
-        title: "Entertainment",
-        description: "Enjoy a variety of recreational activities designed for all tastes.",
+        title: "Performance & Optimization",
+        description: "Comprehensive performance evaluation and optimization recommendations.",
         items: [
           {
-            title: "Water Sports",
-            description: "Try a wide range of water sports, from paddleboarding to jet skiing."
+            title: "Performance Metrics",
+            description: "Detailed analysis of accuracy, precision, recall, and other relevant performance indicators."
           },
           {
-            title: "Kids Play Area",
-            description: "Little ones can have fun in our safe and supervised play area."
+            title: "Scalability Assessment",
+            description: "Evaluation of system scalability and performance under various load conditions."
           },
           {
-            title: "Themed Evenings",
-            description: "Join our weekly themed evenings with live music and entertainment."
+            title: "Resource Optimization",
+            description: "Analysis and recommendations for computational efficiency and resource utilization."
           },
           {
-            title: "Library & Game Room",
-            description: "Relax with a good book or enjoy board games in our common room."
+            title: "Continuous Monitoring",
+            description: "Setup and configuration of ongoing performance monitoring and alerting systems."
           }
         ]
       }

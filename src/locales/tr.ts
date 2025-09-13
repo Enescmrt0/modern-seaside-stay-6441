@@ -1,45 +1,45 @@
 export const tr = {
   nav: {
     home: "Ana Sayfa",
-    apartments: "Apartmanlar",
-    amenities: "Olanaklar",
-    gallery: "Galeri",
+    apartments: "Hizmetler",
+    amenities: "Uzmanlık",
+    gallery: "Vaka Çalışmaları",
     contact: "İletişim",
-    bookNow: "Şimdi Rezerve Et"
+    bookNow: "Teklif Al"
   },
   hero: {
-    subtitle: "SAHIL KENARINDA LÜKS KONAKLAMA",
-    title: "Deniz Kenarında Huzuru Yaşayın",
-    description: "Eşsiz konfor ve nefes kesici deniz manzarası sunan lüks sahil kenarı apartman ve otel odalarından oluşan özel koleksiyonumuzu keşfedin.",
-    bookStay: "Konaklamanızı Rezerve Edin",
-    exploreApartments: "Apartmanları Keşfedin",
+    subtitle: "PROFESYONEL YZ DENETİM HİZMETLERİ",
+    title: "YZ Sistemlerinizin Güvenilir ve Uyumlu Olduğundan Emin Olun",
+    description: "Yapay zeka sistemlerinizin önyargı, güvenlik, performans ve uyumluluk değerlendirmesi için uzman YZ denetim hizmetleri. Kapsamlı içgörüler ve uygulanabilir öneriler alın.",
+    bookStay: "Teklif Al",
+    exploreApartments: "Hizmetlerimiz",
     scrollDown: "Aşağı Kaydır"
   },
   footer: {
-    description: "Muhteşem deniz manzaralı lüks sahil kenarı apartmanlar ve otel odaları, hayalinizdeki tatil için mükemmel konfor ve zarafet karışımı sunuyor.",
+    description: "Yapay zeka sistemlerinizin önyargı, uyumluluk, güvenlik ve performans optimizasyonu için kapsamlı değerlendirme sağlayan profesyonel YZ denetim hizmetleri.",
     quickLinks: "Hızlı Bağlantılar",
     contact: "İletişim",
     newsletter: "Bülten",
-    newsletterDesc: "Özel teklifler ve güncellemeler için bültenimize abone olun.",
+    newsletterDesc: "YZ denetimi içgörüleri ve sektör güncellemeleri için bültenimize abone olun.",
     yourEmail: "E-posta adresiniz",
     subscribe: "Abone Ol",
     allRights: "Tüm hakları saklıdır."
   },
   bookingForm: {
-    title: "Konaklamanızı Rezerve Edin",
-    checkIn: "Giriş Tarihi",
-    checkOut: "Çıkış Tarihi",
-    adults: "Yetişkinler",
-    children: "Çocuklar",
-    adult: "Yetişkin",
-    child: "Çocuk",
+    title: "Danışmanlık Talep Et",
+    checkIn: "Proje Başlangıç Tarihi",
+    checkOut: "Tahmini Tamamlanma",
+    adults: "Ekip Büyüklüğü",
+    children: "Denetlenecek Sistemler",
+    adult: "Kişi",
+    child: "Sistem",
     selectDate: "Tarih seçin",
     checkAvailability: "Müsaitliği Kontrol Et",
-    bookingConfirmed: "Rezervasyon Onaylandı!"
+    bookingConfirmed: "Danışmanlık Talep Edildi!"
   },
   testimonials: {
-    title: "Misafirlerimiz Ne Diyor",
-    description: "Misafirlerimizin neden deniz kenarı kaçamakları için MareSereno'ya tekrar tekrar geldiğini keşfedin."
+    title: "Müşterilerimiz Ne Diyor",
+    description: "Önde gelen şirketlerin neden YZ sistem denetimleri ve uyumluluk gereksinimleri için bize güvendiğini keşfedin."
   },
   notFound: {
     title: "Sayfa Bulunamadı",
@@ -48,79 +48,79 @@ export const tr = {
   },
   home: {
     welcome: {
-      subtitle: "MareSereno'ya Hoş Geldiniz",
-      title: "Lüks Sahil Kenarı Konaklamaları",
-      description1: "Akdeniz'in el değmemiş kıyı şeridinde yer alan MareSereno, lüks apartman ve otel odalarından oluşan zarif bir koleksiyon sunuyor. Sahil kenarındaki konaklamalarımız, modern konforu zarif tasarımla birleştirerek unutulmaz bir sahil kaçamağı için mükemmel ortamı yaratıyor.",
-      description2: "Romantik bir kaçamak, aile tatili veya huzurlu bir geri çekilme arıyor olsanız da, çeşitli konaklama seçeneklerimiz her tercihe ve ihtiyaca hitap ediyor. Her alan, panoramik deniz manzarası ve doğrudan plaj erişimi sağlamak için özenle tasarlanmıştır.",
+      subtitle: "YZ Denetim Pro'ya Hoş Geldiniz",
+      title: "Profesyonel YZ Sistem Denetimi",
+      description1: "Kapsamlı YZ sistem değerlendirmesinde uzmanlaşmış olarak, yapay zeka uygulamalarınızın etik, güvenli ve uyumlu olmasını sağlamak için uzman denetim hizmetleri sunuyoruz. Kapsamlı değerlendirmelerimiz önyargı tespiti, güvenlik açıkları, performans optimizasyonu ve düzenleyici uyumluluk konularını kapsar.",
+      description2: "Makine öğrenmesi modelleri, doğal dil işleme sistemleri veya bilgisayar görüşü uygulamaları dağıtıyor olsanız da, çeşitli denetim hizmetlerimiz her YZ uygulamasına hitap eder. Her denetim, uygulanabilir içgörüler ve uyumluluk güvencesi sağlamak için titizlikle tasarlanmıştır.",
       learnMore: "Daha Fazla Bilgi"
     },
     booking: {
-      subtitle: "Konaklamanızı Rezerve Edin",
-      title: "Mükemmel Tatilinizi Ayırtın",
-      description: "Müsaitliği kontrol ederek ve tercih ettiğiniz tarihleri güvence altına alarak hayalinizdeki tatile ilk adımı atın. Basit rezervasyon sürecimiz, rezervasyondan varışa kadar kesintisiz bir deneyim sağlar.",
-      benefits: ["Anında onay", "En iyi fiyat garantisi", "Esnek iptal seçenekleri", "Güvenli ödeme"]
+      subtitle: "Danışmanlık Talep Et",
+      title: "YZ Denetiminizi Planlayın",
+      description: "Danışmanlık planlayarak YZ sistemlerinizin uyumlu ve optimize edilmiş olduğundan emin olmanın ilk adımını atın. Akıcı sürecimiz ilk değerlendirmeden nihai rapora kadar kapsamlı değerlendirme sağlar.",
+      benefits: ["Detaylı denetim raporu", "Uyumluluk sertifikası", "Performans optimizasyonu", "Sürekli destek"]
     },
     featuredApartments: {
-      subtitle: "Konaklamalarımız",
-      title: "Öne Çıkan Apartmanlar",
-      description: "Her biri mükemmel konfor, stil ve nefes kesici deniz manzarası karışımı sunan en popüler konaklama seçeneklerimizi keşfedin.",
-      viewAll: "Tüm Apartmanları Görüntüle"
+      subtitle: "Hizmetlerimiz",
+      title: "Öne Çıkan Denetim Hizmetleri",
+      description: "YZ sistemlerinizin farklı yönlerinin kapsamlı değerlendirmesini sunan en kapsamlı denetim hizmetlerimizi keşfedin.",
+      viewAll: "Tüm Hizmetleri Görüntüle"
     },
     amenities: {
-      subtitle: "Otel Olanakları",
-      title: "En İyisini Yaşayın",
-      description: "Konaklamanızı olağanüstü kılmak için tasarlanmış premium tesisler ve hizmetlerimizin keyfini çıkarın.",
+      subtitle: "Uzmanlığımız",
+      title: "Kapsamlı YZ Denetimi",
+      description: "YZ sistemlerinizin en yüksek standartları karşılamasını sağlamak için tasarlanmış özel uzmanlığımız ve metodolojilerimizden yararlanın.",
       features: {
         beachfront: {
-          title: "Sahil Kenarı Konumu",
-          description: "Kristal berraklığında sularla el değmemiş plajlara doğrudan erişim."
+          title: "Önyargı Tespiti",
+          description: "Algoritmik önyargıyı tespit etmek ve azaltmak için kapsamlı analiz."
         },
         pools: {
-          title: "Yüzme Havuzları",
-          description: "Muhteşem deniz manzaralı sonsuzluk havuzlarımızın kenarında rahatlayın."
+          title: "Güvenlik Değerlendirmesi",
+          description: "YZ sistemi güvenlik açıklarının kapsamlı değerlendirmesi."
         },
         restaurant: {
-          title: "Gurme Restoran",
-          description: "Enfes yerel ve uluslararası mutfağın tadını çıkarın."
+          title: "Uyumluluk İncelemesi",
+          description: "YZ sistemlerinizin düzenleyici gereksinimleri karşılamasını sağlayın."
         },
         wifi: {
-          title: "Yüksek Hızlı Wi-Fi",
-          description: "Ücretsiz yüksek hızlı internet ile bağlantıda kalın."
+          title: "Performans Analizi",
+          description: "YZ sistem performansını ve verimlilik metriklerini optimize edin."
         },
         bar: {
-          title: "Plaj Barı ve Kafe",
-          description: "Doğrudan plajda servis edilen serinletici içecekler ve atıştırmalıklar."
+          title: "Etik Değerlendirme",
+          description: "Etik sonuçların ve sorumlu YZ uygulamalarının değerlendirmesi."
         },
         location: {
-          title: "Birinci Sınıf Konum",
-          description: "Yerel cazibe merkezleri, mağazalar ve restoranlara yakın."
+          title: "Sektör Uzmanlığı",
+          description: "Sağlık, finans ve teknoloji sektörlerinde özel bilgi."
         }
       }
     },
     cta: {
-      title: "Hayalinizdeki Tatil İçin Hazır mısınız?",
-      description: "Bugün konaklamanızı rezerve edin ve lüks, konfor ve muhteşem deniz manzarası karışımını yaşayın.",
-      bookNow: "Şimdi Rezerve Et"
+      title: "YZ Sistemlerinizi Denetlemeye Hazır mısınız?",
+      description: "Sistemlerinizin güvenilir, uyumlu ve optimize edilmiş olduğundan emin olmak için bugün kapsamlı bir YZ denetimi planlayın.",
+      bookNow: "Teklif Al"
     }
   },
   apartments: {
-    title: "Apartman ve Odalarımız",
-    subtitle: "Rahat stüdyolardan lüks çatı katlarına kadar premium konaklama seçeneklerimizi keşfedin.",
+    title: "YZ Denetim Hizmetlerimiz",
+    subtitle: "Temel değerlendirmelerden tam sistem değerlendirmelerine kadar kapsamlı YZ denetim hizmetleri yelpazemizi keşfedin.",
     filters: {
-      guests: "Misafirler",
-      anyGuests: "Herhangi bir sayıda misafir",
-      onePlus: "1+ misafir",
-      twoPlus: "2+ misafir",
-      threePlus: "3+ misafir",
-      fourPlus: "4+ misafir",
-      location: "Konum",
-      allLocations: "Tüm konumlar",
-      priceRange: "Fiyat Aralığı",
+      guests: "Ekip Büyüklüğü",
+      anyGuests: "Herhangi bir ekip büyüklüğü",
+      onePlus: "1+ kişi",
+      twoPlus: "2+ kişi",
+      threePlus: "3+ kişi",
+      fourPlus: "4+ kişi",
+      location: "Sektör",
+      allLocations: "Tüm sektörler",
+      priceRange: "Hizmet Seviyesi",
       showing: "Gösteriliyor",
       of: "/",
-      accommodations: "konaklama",
+      accommodations: "hizmet",
       resetFilters: "Filtreleri Sıfırla",
-      noMatch: "Filtrelerinize uygun apartman yok",
+      noMatch: "Filtrelerinize uygun hizmet yok",
       adjustFilters: "Daha fazla seçenek görmek için filtre kriterlerinizi ayarlamayı deneyin.",
       viewDetails: "Detayları Görüntüle",
       features: "özellik",
@@ -128,57 +128,57 @@ export const tr = {
     }
   },
   gallery: {
-    title: "Fotoğraf Galerisi",
-    subtitle: "Büyüleyici görsellerle sahil cennetimizi keşfedin.",
+    title: "Vaka Çalışmaları",
+    subtitle: "Başarılı YZ denetim projelerimizi ve uyumluluk başarılarımızı keşfedin.",
     filters: {
       all: "Tümü",
-      exterior: "Dış Mekan",
-      rooms: "Odalar",
-      amenities: "Olanaklar"
+      exterior: "Sağlık",
+      rooms: "Finans",
+      amenities: "Teknoloji"
     }
   },
   booking: {
-    title: "Konaklamanızı Rezerve Edin",
-    subtitle: "Rezervasyonunuzu birkaç basit adımda tamamlayın.",
+    title: "YZ Denetimi Talep Et",
+    subtitle: "Denetim talebinizi birkaç basit adımda tamamlayın.",
     steps: {
-      chooseRoom: "Oda Seçin",
-      guestDetails: "Misafir Detayları",
+      chooseRoom: "Hizmet Seç",
+      guestDetails: "Proje Detayları",
       confirmation: "Onay"
     },
     dates: {
-      selectDates: "Tarihleri ve Misafirleri Seçin",
-      checkIn: "Giriş Tarihi",
-      checkOut: "Çıkış Tarihi",
-      adults: "Yetişkinler",
-      children: "Çocuklar",
-      adult: "Yetişkin",
-      child: "Çocuk",
+      selectDates: "Zaman Çizelgesi ve Ekibi Seçin",
+      checkIn: "Proje Başlangıç Tarihi",
+      checkOut: "Tahmini Tamamlanma",
+      adults: "Ekip Üyeleri",
+      children: "YZ Sistemleri",
+      adult: "Üye",
+      child: "Sistem",
       selectDate: "Tarih seçin"
     },
     accommodationSelect: {
-      title: "Konaklamanızı Seçin",
-      guests: "Misafirler",
+      title: "Denetim Hizmetinizi Seçin",
+      guests: "Ekip Büyüklüğü",
       selected: "Seçildi",
       select: "Seç",
       continue: "Devam Et"
     },
     guestInfo: {
-      title: "Misafir Bilgileri",
+      title: "Proje Bilgileri",
       firstName: "Ad",
       lastName: "Soyad",
       email: "E-posta",
       phone: "Telefon",
-      address: "Adres",
+      address: "Şirket Adresi",
       city: "Şehir",
       zipCode: "Posta Kodu",
       country: "Ülke",
-      specialRequests: "Özel İstekler",
-      specialRequestsPlaceholder: "Konaklamanız için herhangi bir özel istek veya not"
+      specialRequests: "Özel Gereksinimler",
+      specialRequestsPlaceholder: "YZ denetiminiz için özel gereksinimler veya notlar"
     },
     payment: {
       title: "Ödeme Bilgileri",
       creditCard: "Kredi Kartı",
-      payAtProperty: "Tesiste Öde",
+      payAtProperty: "Sonra Öde",
       nameOnCard: "Kart Üzerindeki İsim",
       cardNumber: "Kart Numarası",
       cardNumberPlaceholder: "0000 0000 0000 0000",
@@ -186,117 +186,117 @@ export const tr = {
       expiryDatePlaceholder: "AA/YY",
       cvc: "CVC",
       cvcPlaceholder: "123",
-      payAtPropertyInfo: "Güvenlik amaçları için varışta geçerli bir kredi kartı sağlamanız gerekecektir, ancak ödeme tesiste konaklamanız sırasında tahsil edilecektir."
+      payAtPropertyInfo: "Ödeme, denetim teklifi kabul edildikten ve çalışma başladıktan sonra işlenecektir."
     },
     summary: {
-      title: "Rezervasyon Özeti",
-      checkIn: "Giriş",
-      checkOut: "Çıkış",
-      guests: "Misafirler",
-      night: "gece",
-      nights: "gece",
-      cleaningFee: "Temizlik ücreti",
+      title: "Denetim Özeti",
+      checkIn: "Başlangıç Tarihi",
+      checkOut: "Tamamlanma",
+      guests: "Ekip Büyüklüğü",
+      night: "gün",
+      nights: "gün",
+      cleaningFee: "Kurulum ücreti",
       serviceFee: "Hizmet bedeli",
       total: "Toplam"
     },
     confirmation: {
-      title: "Rezervasyon Detaylarını İnceleyin",
-      accommodationDetails: "Konaklama Detayları",
-      guestDetails: "Misafir Detayları",
+      title: "Denetim Detaylarını İnceleyin",
+      accommodationDetails: "Hizmet Detayları",
+      guestDetails: "Proje Detayları",
       name: "İsim",
       email: "E-posta",
       phone: "Telefon",
       address: "Adres",
       city: "Şehir",
       country: "Ülke",
-      specialRequests: "Özel İstekler",
+      specialRequests: "Özel Gereksinimler",
       paymentMethod: "Ödeme Yöntemi",
       creditCard: "Kredi Kartı",
       priceSummary: "Fiyat Özeti",
       termsAgree: "Kabul ediyorum",
       termsLink: "Şartlar ve Koşullar",
       privacyLink: "Gizlilik Politikası",
-      cancellationInfo: "Rezervasyonumun tesisin iptal politikasına tabi olduğunu anlıyorum.",
+      cancellationInfo: "Denetim talebimin hizmet sözleşmemize tabi olduğunu anlıyorum.",
       back: "Geri",
-      confirmBooking: "Rezervasyonu Onayla",
-      success: "Rezervasyon Onaylandı!",
-      emailSent: "Rezervasyonunuz başarıyla onaylandı. Onay e-postası gönderildi:",
-      bookingReference: "Rezervasyon Referansı",
+      confirmBooking: "Denetim Talebini Onayla",
+      success: "Denetim Talebi Onaylandı!",
+      emailSent: "Denetim talebiniz başarıyla gönderildi. Onay e-postası gönderildi:",
+      bookingReference: "Talep Referansı",
       returnToHome: "Ana Sayfaya Dön"
     }
   },
   contact: {
     title: "Bize Ulaşın",
-    subtitle: "Konaklamanızı unutulmaz kılmak için buradayız. Herhangi bir sorunuz veya özel isteğiniz için bizimle iletişime geçin.",
+    subtitle: "YZ sistemlerinizin uyumlu ve güvenilir olduğundan emin olmaya hazır mısınız? Uzman ekibimizle iletişime geçin.",
     getInTouch: "İletişime Geçin",
     address: "Adres",
     phone: "Telefon",
     email: "E-posta",
-    receptionHours: "Resepsiyon Saatleri",
-    checkInTime: "Giriş: 15:00'dan sonra",
-    checkOutTime: "Çıkış: 11:00'dan önce",
+    receptionHours: "Çalışma Saatleri",
+    checkInTime: "Pazartesi-Cuma: 09:00 - 18:00",
+    checkOutTime: "Yanıt Süresi: 24 saat içinde",
     sendMessage: "Bize Mesaj Gönderin",
     fullName: "Ad Soyad",
     phoneNumber: "Telefon Numarası",
     subject: "Konu",
     message: "Mesaj",
-    howCanWeHelp: "Size nasıl yardımcı olabiliriz?",
+    howCanWeHelp: "YZ denetim ihtiyaçlarınızda size nasıl yardımcı olabiliriz?",
     send: "Mesaj Gönder",
     messageSent: "Mesaj Gönderildi!",
     thankYou: "Bizimle iletişime geçtiğiniz için teşekkürler. Mesajınıza en kısa sürede yanıt vereceğiz.",
     faq: "Sık Sorulan Sorular",
-    faqSubtitle: "Konaklama ve hizmetlerimiz hakkında yaygın soruların hızlı yanıtlarını bulun.",
+    faqSubtitle: "YZ denetim hizmetlerimiz hakkında yaygın soruların hızlı yanıtlarını bulun.",
     questions: {
       checkInOut: {
-        question: "Giriş ve çıkış saatleriniz nedir?",
-        answer: "Giriş 15:00'dan itibaren, çıkış ise 11:00'a kadardır. Erken giriş veya geç çıkış müsaitlik durumuna göre ayarlanabilir."
+        question: "Tipik bir YZ denetimi ne kadar sürer?",
+        answer: "Denetim süresi sistem karmaşıklığına bağlı olarak değişir, genellikle 2-8 hafta arasındadır. İlk danışmanlık sırasında detaylı zaman çizelgeleri sağlarız."
       },
       parking: {
-        question: "Tesiste park yeri mevcut mu?",
-        answer: "Evet, tüm misafirlerimize ücretsiz park hizmeti sunuyoruz. Vale park hizmeti de ek ücret karşılığında mevcuttur."
+        question: "Hangi sektörlerde uzmanlaşıyorsunuz?",
+        answer: "Her sektörün uyumluluk gereksinimlerinde özel uzmanlıkla sağlık, finans, teknoloji ve imalat sektörlerine hizmet veriyoruz."
       },
       pets: {
-        question: "Apartmanlarda evcil hayvanlara izin veriliyor mu?",
-        answer: "Belirlenen evcil hayvan dostu apartmanlarda evcil hayvanları kabul ediyoruz. Evcil hayvan getirmeyi planlıyorsanız lütfen önceden bilgilendirin, ek ücretler uygulanabilir."
+        question: "Sürekli izleme hizmetleri sağlıyor musunuz?",
+        answer: "Evet, YZ sistemlerinizin zaman içinde uyumluluk ve performans standartlarını korumasını sağlamak için sürekli izleme paketleri sunuyoruz."
       },
       breakfast: {
-        question: "Kahvaltı oda ücretine dahil mi?",
-        answer: "Kahvaltı seçilen oda paketlerine dahildir. Rezervasyon sürecinde dahil olup olmadığını kontrol edebilir veya rezervasyonunuza istediğiniz zaman ekleyebilirsiniz."
+        question: "Hangi sertifikaları sağlıyorsunuz?",
+        answer: "Sektör standartlarını ve düzenleyici gereksinimleri karşılayan kapsamlı denetim raporları ve uyumluluk sertifikaları sağlıyoruz."
       },
       transfers: {
-        question: "Havaalanı transferi hizmeti veriyor musunuz?",
-        answer: "Evet, ek ücret karşılığında havaalanı transferi hizmeti sunuyoruz. Lütfen varışınızdan en az 48 saat önce konsiyerjimizle iletişime geçerek ulaşımınızı ayarlayın."
+        question: "Uzaktan denetim hizmetleri sunuyor musunuz?",
+        answer: "Evet, operasyonel ihtiyaçlarınızı ve güvenlik gereksinimlerinizi karşılamak için hem yerinde hem de uzaktan denetim hizmetleri sunuyoruz."
       },
       amenities: {
-        question: "Tesiste hangi olanaklar mevcut?",
-        answer: "Tesis bünyemizde yüzme havuzları, spa, restoranlar, plaj barı, fitness merkezi ve doğrudan plaj erişimi bulunuyor. Tüm apartmanlarda Wi-Fi, klima ve modern ev aletleri mevcuttur."
+        question: "Denetim süreciniz neyi içeriyor?",
+        answer: "Kapsamlı sürecimiz önyargı tespiti, güvenlik değerlendirmesi, performans analizi, uyumluluk incelemesi ve uygulanabilir önerilerle detaylı raporlama içerir."
       }
     }
   },
   apartmentDescriptions: {
     "1": {
-      name: "Delüks Deniz Manzaralı Süit",
-      description: "Panoramik deniz manzarası, modern olanaklar ve özel balkonu olan lüks süit."
+      name: "Kapsamlı YZ Sistem Denetimi",
+      description: "Kurumsal YZ sistemleri için önyargı, güvenlik, performans ve uyumluluğu kapsayan tam değerlendirme."
     },
     "2": {
-      name: "Premium Aile Apartmanı",
-      description: "Tam mutfak ve muhteşem sahil manzarası ile ailelere ideal geniş apartman."
+      name: "Makine Öğrenmesi Model Değerlendirmesi",
+      description: "ML model performansı, doğruluğu ve önyargı tespitine odaklanan özel denetim."
     },
     "3": {
-      name: "Yönetici Plaj Stüdyosu",
-      description: "Doğrudan plaj erişimi, modern tasarım ve premium malzemeli zarif stüdyo."
+      name: "YZ Güvenlik ve Gizlilik İncelemesi",
+      description: "Veri koruması, model sağlamlığı ve gizlilik uyumluluğunu kapsayan derinlemesine güvenlik değerlendirmesi."
     },
     "4": {
-      name: "Lüks Çatı Katı Süiti",
-      description: "Geniş terası ve panoramik deniz manzarası olan özel üst kat süiti."
+      name: "Düzenleyici Uyumluluk Denetimi",
+      description: "Sektör düzenlemeleri ve standartlarına uyumluluğu sağlayan kapsamlı uyumluluk incelemesi."
     },
     "5": {
-      name: "Klasik İkili Oda",
-      description: "Modern olanaklar ve kısmi deniz manzarası olan konforlu otel odası."
+      name: "Temel YZ Sağlık Kontrolü",
+      description: "Temel YZ sistem performansını ve temel uyumluluğu kapsayan giriş seviyesi değerlendirme."
     },
     "6": {
-      name: "Bahçe Manzaralı Apartman",
-      description: "Yemyeşil bahçelerle çevrili, plaja kısa yürüme mesafesinde huzurlu apartman."
+      name: "Sürekli İzleme Hizmeti",
+      description: "YZ sistem uyumluluğunu ve performansını korumak için sürekli izleme ve periyodik incelemeler."
     }
   },
   amenitiesPage: {
